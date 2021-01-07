@@ -10,7 +10,7 @@ Programming Language used = PHP Language
 
 ## Quick Start
 ```
-1. Fetch data: (http://developerjokes.epizy.com/developer_jokes/Api/select.php)
+1. [Fetch data](http://developerjokes.epizy.com/developer_jokes/Api/select.php)
 
 2. fetch single data: (http://developerjokes.epizy.com/developer_jokes/Api/single_select.php?id='any interger')
 
