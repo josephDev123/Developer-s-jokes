@@ -1,6 +1,6 @@
-## Developer's joke REST API
+# Developer's joke REST API
 
-# Introduction:
+## Introduction:
 Developer's joke REST API: is a REST API that allows you to create, select, update and delete developer's jokes. 
 Programming Language used = PHP Language
 
@@ -10,7 +10,7 @@ Programming Language used = PHP Language
 
 ## Quick Start
 ```
-1. [Fetch data](http://developerjokes.epizy.com/developer_jokes/Api/select.php)
+1. Fetch data: (http://developerjokes.epizy.com/developer_jokes/Api/select.php)
 
 2. fetch single data: (http://developerjokes.epizy.com/developer_jokes/Api/single_select.php?id='any interger')
 
