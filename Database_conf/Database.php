@@ -2,10 +2,15 @@
 
 class Database{
     // properties
-    private $host = 'localhost';
-    private $dbname = 'developer_joke';
-    private $dbSurname = 'root';
-    private $password = '';
+    // private $host = 'localhost';
+    // private $dbname = 'developer_joke';
+    // private $dbSurname = 'root';
+    // private $password = '';
+
+    private $host = 'sql306.epizy.com';
+    private $dbname = 'epiz_27596606_jokes';
+    private $dbSurname = 'epiz_27596606';
+    private $password = 'WAIoZYyHTGX9';
     private $conn;
 
 //connection 
