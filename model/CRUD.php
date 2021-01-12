@@ -59,7 +59,7 @@ class Crud_Functionalities {
         }     
     }
 
-//delete functionality
+// update functionality
     public function update(){
         //query statement
         $sql="UPDATE $this->table_name SET author = ?, joke_content = ? WHERE id = ? ";

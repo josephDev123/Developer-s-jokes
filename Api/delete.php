@@ -17,10 +17,14 @@ $database = new Database();
   
   //assigning values to properties
   $new_crud->id = $rawData->id;
+if(isset($new_crud->id)) {
 
-//update query function
-if($new_crud->Delete()){
-    echo json_encode(array("message"=>"joke deleted successful"));
+    //update query function
+    if($new_crud->Delete()){
+      echo json_encode(array("message"=>"joke deleted successful"));
+    }else{
+    echo json_encode(array("message"=>" joke deleted fails"));
+    }
 }else{
-  echo json_encode(array("message"=>" joke deleted fails"));
+  echo json_encode(array("message"=>" joke deletion fails because no 'id' was indicated"));
 }

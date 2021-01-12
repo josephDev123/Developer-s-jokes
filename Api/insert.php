@@ -20,8 +20,15 @@ $database = new Database();
   $new_crud->author = $rawData->author;
   $new_crud->joke = $rawData->joke;
 
-  if($new_crud->create()){
+  if (isset($new_crud->author) && isset($new_crud->joke)) {
+    
+    if($new_crud->create()){
       echo(json_encode(array("message"=>"Joke Insert successful")));
   }else{
     echo(json_encode(array("message"=>"Joke Insert fails")));
   }
+  }else{
+    echo(json_encode(array("message"=>"Joke Insertion fails bacause author and joke content was not set")));
+  }
+
+ 

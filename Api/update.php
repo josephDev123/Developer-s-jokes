@@ -21,9 +21,14 @@ $database = new Database();
   $new_crud->author = $rawData->author;
   $new_crud->joke = $rawData->joke;
 
-//update query
-  if($new_crud->update()){
+  if (isset($new_crud->id)) {
+    
+    //update query
+    if($new_crud->update()){
       echo json_encode(array("message"=>"joke update successful"));
+    }else{
+      echo json_encode(array("message"=>" joke update fails"));
+    }
   }else{
-    echo json_encode(array("message"=>" joke update fails"));
+    echo json_encode(array("message"=>" No 'id' was indicated in your update"));
   }
