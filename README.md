@@ -1,9 +1,12 @@
-## Developer's joke REST API
+# Developer's joke REST API
 
-# Introduction:
+## Introduction:
 Developer's joke REST API: is a REST API that allows you to create, select, update and delete developer's jokes. 
-Programming Language used = PHP Language
 
+## Programming Language used:
+```
+PHP Language
+```
 
 ## version: 
 1.0 
@@ -28,4 +31,7 @@ Please submit bug reports, suggestions, contribution and pull requests to the (h
 ## Author
 
 Uzuegbu, Joseph 
-(https://twitter.com/JosephUzuegbu)
+
+Twitter: (https://twitter.com/JosephUzuegbu)
+
+Linkedin: (https://www.linkedin.com/in/joseph-uzuegbu-2398001a5/)
